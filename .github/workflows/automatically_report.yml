@@ -1,7 +1,7 @@
 name: Send vocabularies by scheduled times
 on:
   schedule:
-    - corn: "0 3 * * *" # Runs at 16:00 GMT+7
+    - cron: "0 3 * * *" # Runs at 16:00 GMT+7
     
   workflow_dispatch:
 
