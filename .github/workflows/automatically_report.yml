@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: "0 3 * * THU" # Runs at 10:00 GMT+7, only on Thursday
     - cron: "30 3 * * SUN" # Runs at 10:30 GMT+7, only on Sunday
+    - cron: 0 3 * * * 
   workflow_dispatch:
 
 jobs:
